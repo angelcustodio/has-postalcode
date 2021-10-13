@@ -1,0 +1,41 @@
+{
+  "name": "has-postalcode",
+  "description": "Check if a certain country has (or uses) postal codes - ISO 3166-1 compliant",
+  "homepage": "https://github.com/angelcustodio/has-postalcode",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": {
+    "email": "ancude@gmail.com",
+    "name": "Angel Custodio",
+    "url": "https://custod.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelcustodio/has-postalcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/angelcustodio/has-postalcode/issues"
+  },
+  "keywords": [
+    "postalcode",
+    "zipcode",
+    "shipping",
+    "iso-31661",
+    "iso-31661-alpha2",
+    "iso-31661-alpha3",
+    "iso-31661-numeric"
+  ],
+  "dependencies": {
+    "iso-3166": "~4.0.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "~2.3.0",
+    "jest": "~27.2.5"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "license": "MIT"
+}
