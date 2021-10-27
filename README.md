@@ -21,10 +21,10 @@ $ npm install has-postalcode
 ```js
 import hasPostalCode from 'has-postalcode'
 
-hasPostalCode(044) // => false
-hasPostalCode('BS') // => false
-hasPostalCode('BHS') // => false
-hasPostalCode('Bahamas') // => false
+hasPostalCode(772) // => false
+hasPostalCode('TK') // => false
+hasPostalCode('TKL') // => false
+hasPostalCode('Tokelau') // => false
 
 hasPostalCode('Spain') // => true
 ```

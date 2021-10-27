@@ -1,10 +1,10 @@
 'use strict'
 
-const countries = require('./countries.json')
-const iso31661 = require('iso-3166')
+const noPostalCodeCountries = require('./data/nopostal.js')
+const iso31661 = require('./data/iso31661.js')
 
-const listedCountry = (value) => {
-  const isListed = countries.find(country => country === value)
+const listedCountry = (match) => {
+  const isListed = noPostalCodeCountries.find(country => country === match)
 
   return !!isListed
 }
@@ -16,10 +16,10 @@ const valueType = (value) => {
   return 'name'
 }
 
-const hasPostalCode = (country) => {
+const hasPostalCode = (ref) => {
   const collection = iso31661.filter(item => listedCountry(item.name))
-  const type = valueType(country)
-  const result = collection.filter(item => item[type] === country)
+  const type = valueType(ref)
+  const result = collection.filter(item => item[type] === ref.toString())
 
   return !result.length
 }
