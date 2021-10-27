@@ -228,7 +228,7 @@ const iso31661 = [
     "numeric": "124"
   },
   {
-    "name": "Cocos (Keeling) Islands",
+    "name": "Cocos (Keeling) Islands (the)",
     "alpha2": "CC",
     "alpha3": "CCK",
     "numeric": "166"
@@ -240,7 +240,7 @@ const iso31661 = [
     "numeric": "180"
   },
   {
-    "name": "Central African Republic",
+    "name": "Central African Republic (the)",
     "alpha2": "CF",
     "alpha3": "CAF",
     "numeric": "140"
@@ -264,7 +264,7 @@ const iso31661 = [
     "numeric": "384"
   },
   {
-    "name": "Cook Islands",
+    "name": "Cook Islands (the)",
     "alpha2": "CK",
     "alpha3": "COK",
     "numeric": "184"
@@ -360,7 +360,7 @@ const iso31661 = [
     "numeric": "212"
   },
   {
-    "name": "Dominican Republic",
+    "name": "Dominican Republic (the)",
     "alpha2": "DO",
     "alpha3": "DOM",
     "numeric": "214"
@@ -426,7 +426,7 @@ const iso31661 = [
     "numeric": "242"
   },
   {
-    "name": "Falkland Islands (Malvinas)",
+    "name": "Falkland Islands (the)",
     "alpha2": "FK",
     "alpha3": "FLK",
     "numeric": "238"
@@ -438,7 +438,7 @@ const iso31661 = [
     "numeric": "583"
   },
   {
-    "name": "Faroe Islands",
+    "name": "Faroe Islands (the)",
     "alpha2": "FO",
     "alpha3": "FRO",
     "numeric": "234"
@@ -456,7 +456,7 @@ const iso31661 = [
     "numeric": "266"
   },
   {
-    "name": "United Kingdom of Great Britain and Northern Ireland",
+    "name": "United Kingdom of Great Britain and Northern Ireland (the)",
     "alpha2": "GB",
     "alpha3": "GBR",
     "numeric": "826"
@@ -630,7 +630,7 @@ const iso31661 = [
     "numeric": "356"
   },
   {
-    "name": "British Indian Ocean Territory",
+    "name": "British Indian Ocean Territory (the)",
     "alpha2": "IO",
     "alpha3": "IOT",
     "numeric": "086"
@@ -738,7 +738,7 @@ const iso31661 = [
     "numeric": "414"
   },
   {
-    "name": "Cayman Islands",
+    "name": "Cayman Islands (the)",
     "alpha2": "KY",
     "alpha3": "CYM",
     "numeric": "136"
@@ -750,7 +750,7 @@ const iso31661 = [
     "numeric": "398"
   },
   {
-    "name": "Lao People's Democratic Republic",
+    "name": "Lao People's Democratic Republic (the)",
     "alpha2": "LA",
     "alpha3": "LAO",
     "numeric": "418"
@@ -828,7 +828,7 @@ const iso31661 = [
     "numeric": "492"
   },
   {
-    "name": "Moldova, Republic of",
+    "name": "Moldova (the Republic of)",
     "alpha2": "MD",
     "alpha3": "MDA",
     "numeric": "498"
@@ -852,7 +852,7 @@ const iso31661 = [
     "numeric": "450"
   },
   {
-    "name": "Marshall Islands",
+    "name": "Marshall Islands (the)",
     "alpha2": "MH",
     "alpha3": "MHL",
     "numeric": "584"
@@ -888,7 +888,7 @@ const iso31661 = [
     "numeric": "446"
   },
   {
-    "name": "Northern Mariana Islands",
+    "name": "Northern Mariana Islands (the)",
     "alpha2": "MP",
     "alpha3": "MNP",
     "numeric": "580"
@@ -1362,13 +1362,13 @@ const iso31661 = [
     "numeric": "798"
   },
   {
-    "name": "Taiwan, Province of China",
+    "name": "Taiwan (Province of China)",
     "alpha2": "TW",
     "alpha3": "TWN",
     "numeric": "158"
   },
   {
-    "name": "Tanzania, United Republic of",
+    "name": "Tanzania, the United Republic of",
     "alpha2": "TZ",
     "alpha3": "TZA",
     "numeric": "834"
@@ -1386,13 +1386,13 @@ const iso31661 = [
     "numeric": "800"
   },
   {
-    "name": "United States Minor Outlying Islands",
+    "name": "United States Minor Outlying Islands (the)",
     "alpha2": "UM",
     "alpha3": "UMI",
     "numeric": "581"
   },
   {
-    "name": "United States of America",
+    "name": "United States of America (the)",
     "alpha2": "US",
     "alpha3": "USA",
     "numeric": "840"
