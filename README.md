@@ -6,9 +6,12 @@
 
 
 Check if a country has (or uses) postal codes or not. Simple as that.
-It's ISO 3166-1 compliant so you can use 2-3 characters/numeric country code or standarized english name.
+
+It's ISO 3166-1 compliant so you can use 2-3 characters/numeric country code or standarized english name. Standarization can be found in [ISO OBP](https://www.iso.org/obp/ui/#search).
 
 The package basically checks a list of no-postalcode countries. When checking for a country that is **on** the list, the returned value will be `false`. In case of checking for a country that is **not** included in the list or for any other non-supported value, it will return `true`.
+
+For non-compliant values with ISO 3166-1, it returns `undefined`.
 
 ## Installation
 
@@ -21,12 +24,14 @@ $ npm install has-postalcode
 ```js
 import hasPostalCode from 'has-postalcode'
 
-hasPostalCode(772) // => false
-hasPostalCode('TK') // => false
-hasPostalCode('TKL') // => false
-hasPostalCode('Tokelau') // => false
+hasPostalCode(772) // false
+hasPostalCode('TK') // false
+hasPostalCode('TKL') // false
+hasPostalCode('Tokelau') // false
 
-hasPostalCode('Spain') // => true
+hasPostalCode('Spain') // true
+hasPostalCode('Españita') // false
+hasPostalCode('💩') // false
 ```
 
 ## License
@@ -35,4 +40,4 @@ hasPostalCode('Spain') // => true
 
 ## Author
 
-Angel Custodio - find me [@dntrshm](https://twitter.com/dntrshm)
+Angel Custodio - find me [@ancude](https://twitter.com/ancude)
