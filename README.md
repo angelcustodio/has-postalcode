@@ -1,9 +1,9 @@
 # has-postalcode
 
-![version](https://img.shields.io/npm/v/has-postalcode?color=red&label=version)
-![status](https://img.shields.io/travis/angelcustodio/has-postalcode)
-![size](https://img.shields.io/bundlephobia/min/has-postalcode?color=orange&label=size)
-![downloads](https://img.shields.io/npm/dw/has-postalcode?color=yellow)
+[![version](https://img.shields.io/npm/v/has-postalcode?color=red&label=version)](https://www.npmjs.com/package/has-postalcode)
+[![status](https://img.shields.io/travis/angelcustodio/has-postalcode)](https://app.travis-ci.com/github/angelcustodio/has-postalcode)
+[![size](https://img.shields.io/bundlephobia/min/has-postalcode?color=orange&label=size)](https://www.npmjs.com/package/has-postalcode)
+[![downloads](https://img.shields.io/npm/dw/has-postalcode?color=yellow)](https://www.npmjs.com/package/has-postalcode)
 
 Check if a country has (or uses) postal codes or not. Zero dependencies. Simple as that.
 
