@@ -9,9 +9,9 @@ Check if a country has (or uses) postal codes or not. Simple as that.
 
 It's ISO 3166-1 compliant so you can use 2-3 characters/numeric country code or standarized english name. Standarization can be found in [ISO OBP](https://www.iso.org/obp/ui/#search).
 
-The package basically checks a list of no-postalcode countries. When checking for a country that is **on** the list, the returned value will be `false`. In case of checking for a country that is **not** included in the list or for any other non-supported value, it will return `true`.
+The package basically checks a list of no-postalcode countries. When checking for a country that is **on** the list, the returned value will be `false`. In case of checking for a country that is **not** included in the list it will return `true`.
 
-For non-compliant values with ISO 3166-1, it returns `undefined`.
+For non-compliant values with ISO 3166-1, it will return `undefined`.
 
 ## Installation
 
@@ -36,8 +36,4 @@ hasPostalCode('💩') // false
 
 ## License
 
-**has-postalcode** is released under [MIT](https://github.com/angelcustodio/has-postalcode/blob/master/LICENSE.md) License<br>
-
-## Author
-
-Angel Custodio - find me [@ancude](https://twitter.com/ancude)
+**has-postalcode** is released by [Angel Custodio](https://twitter.com/ancude) under [MIT](https://github.com/angelcustodio/has-postalcode/blob/master/LICENSE.md) License<br>
