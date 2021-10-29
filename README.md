@@ -1,17 +1,15 @@
 # has-postalcode
 
-[![status](https://api.travis-ci.org/angelcustodio/has-postalcode.svg?branch=master)](https://travis-ci.org/angelcustodio/has-postalcode)
-[![version](https://badge.fury.io/js/discord-steam-bot.svg)](https://npmjs.org/package/has-postalcode)
-[![downloads](http://img.shields.io/npm/dm/has-postalcode.svg)](https://npmjs.org/package/has-postalcode)
+![version](https://img.shields.io/npm/v/has-postalcode?color=red&label=version)
+![status](https://img.shields.io/travis/angelcustodio/has-postalcode)
+![size](https://img.shields.io/bundlephobia/min/has-postalcode?color=orange&label=size)
+![downloads](https://img.shields.io/npm/dw/has-postalcode?color=yellow)
 
-
-Check if a country has (or uses) postal codes or not. Simple as that.
+Check if a country has (or uses) postal codes or not. Zero dependencies. Simple as that.
 
 It's ISO 3166-1 compliant so you can use 2-3 characters/numeric country code or standarized english name. Standarization can be found in [ISO OBP](https://www.iso.org/obp/ui/#search).
 
-The package basically checks a list of no-postalcode countries. When checking for a country that is **on** the list, the returned value will be `false`. In case of checking for a country that is **not** included in the list it will return `true`.
-
-For non-compliant values with ISO 3166-1, it will return `undefined`.
+The package basically checks a list of no-postalcode countries. When checking for a country that is **on** the list, the returned value will be `false`. In case of checking for a country that is **not** included in the list it will return `true`. For non-compliant values with ISO 3166-1, it will return `undefined`.
 
 ## Installation
 
