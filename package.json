@@ -1,13 +1,12 @@
 {
   "name": "has-postalcode",
-  "description": "Check if a certain country has (or uses) postal codes - ISO 3166-1 compliant",
+  "description": "Check if a certain country has/uses postal codes - ISO 3166-1 compliant",
   "homepage": "https://github.com/angelcustodio/has-postalcode",
   "version": "1.0.0",
   "main": "src/index.js",
   "author": {
-    "email": "ancude@gmail.com",
-    "name": "Angel Custodio",
-    "url": "https://custod.io"
+    "email": "angel@custod.io",
+    "name": "Angel Custodio"
   },
   "repository": {
     "type": "git",
