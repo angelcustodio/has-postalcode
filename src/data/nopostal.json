@@ -1,4 +1,4 @@
-const noPostalCodeCountries = [
+[
   "Angola",
   "Antigua and Barbuda",
   "Aruba",
@@ -67,5 +67,3 @@ const noPostalCodeCountries = [
   "Yemen",
   "Zimbabwe"
 ]
-
-module.exports = noPostalCodeCountries

@@ -1,7 +1,7 @@
 'use strict'
 
-const noPostalCodeCountries = require('./data/nopostal.js')
-const iso31661 = require('./data/iso31661.js')
+const noPostalCodeCountries = require('./data/nopostal.json')
+const iso31661 = require('./data/iso31661.json')
 
 
 const getFromCollection = (collection, value, type) => {

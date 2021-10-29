@@ -1,5 +1,5 @@
 const hasPostalCode = require('../src/index.js')
-const noPostalCodeCountries = require('../src/data/nopostal.js')
+const noPostalCodeCountries = require('../src/data/nopostal.json')
 
 describe('hasPostalCode', () => {
 

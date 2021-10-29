@@ -1,4 +1,4 @@
-const iso31661 = [
+[
   {
     "name": "Andorra",
     "alpha2": "AD",
@@ -1494,5 +1494,3 @@ const iso31661 = [
     "numeric": "716"
   }
 ]
-
-module.exports = iso31661
