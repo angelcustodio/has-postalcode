@@ -34,5 +34,9 @@
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.js"],
+    "testMatch": ["<rootDir>/tests/**/*.js"]
+  }
 }
