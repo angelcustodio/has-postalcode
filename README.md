@@ -28,8 +28,8 @@ hasPostalCode('TKL') // false
 hasPostalCode('Tokelau') // false
 
 hasPostalCode('Spain') // true
-hasPostalCode('Españita') // false
-hasPostalCode('💩') // false
+hasPostalCode('Españita') // undefined
+hasPostalCode('💩') // undefined
 ```
 
 ## License
