@@ -1,9 +1,7 @@
 arch: arm64
 os: linux
+dist: focal
 language: node_js
 node_js:
   - node
   - lts/*
-  - 12
-  - 10
-  - 7
